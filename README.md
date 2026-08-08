@@ -6,6 +6,10 @@ THE HOOK replays three verified, high-leverage MLB pitching changes. It compares
 
 Built for the [AQX Sports Analytics Data Bowl 3.0](https://aqxanalyticsthree.devpost.com/).
 
+**Live demo:** [the-hook.streamlit.app](https://the-hook.streamlit.app/)
+
+**Source:** [github.com/Harshyadav442277/the-hook](https://github.com/Harshyadav442277/the-hook)
+
 ![THE HOOK Decision Room](assets/screenshots/decision-room.png)
 
 <details>

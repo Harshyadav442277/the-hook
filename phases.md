@@ -517,17 +517,17 @@ Use the final buffer only for correctness, reliability, and submission—not fea
 
 ### Final checklist
 
-- [ ] Three scenarios pass.
-- [ ] Flagship opens by default.
-- [ ] Actual/recommended choices are correct.
-- [ ] Percentage-point delta is correct.
-- [ ] What-if state is synchronized.
-- [ ] Model and metrics artifacts match.
-- [ ] Limitations are visible.
-- [ ] Repository is public and clean, if authorized.
-- [ ] Live app is tested, if authorized.
-- [ ] README and Devpost copy agree.
-- [ ] Demo is under 90 seconds.
+- [x] Three scenarios pass.
+- [x] Flagship opens by default.
+- [x] Actual/recommended choices are correct.
+- [x] Percentage-point delta is correct.
+- [x] What-if state is synchronized.
+- [x] Model and metrics artifacts match.
+- [x] Limitations are visible.
+- [x] Repository is public and clean, if authorized.
+- [x] Live app is tested, if authorized.
+- [x] README and Devpost copy agree.
+- [x] Demo is under 90 seconds.
 - [ ] Submission is completed before the official deadline.
 
 ## 4. README and submission cut policy

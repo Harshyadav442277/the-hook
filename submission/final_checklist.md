@@ -8,5 +8,5 @@
 - [x] Chronological metrics and calibration shown.
 - [x] Limitations visible in the app and README.
 - [x] Public GitHub repository selected.
-- [ ] Live Streamlit URL tested after deployment.
+- [x] Live Streamlit URL tested after deployment: <https://the-hook.streamlit.app/>.
 - [ ] Devpost form submitted by the participant.

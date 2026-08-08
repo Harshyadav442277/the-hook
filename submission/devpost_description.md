@@ -1,5 +1,9 @@
 # THE HOOK — Devpost submission copy
 
+Live demo: <https://the-hook.streamlit.app/>
+
+Source code: <https://github.com/Harshyadav442277/the-hook>
+
 ## One-line pitch
 
 THE HOOK turns a high-pressure MLB bullpen decision into an explainable, interactive Manager-vs-Model comparison.

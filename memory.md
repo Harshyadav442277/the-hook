@@ -2,8 +2,9 @@
 
 Purpose: durable handoff context for future implementation phases  
 Last updated: 2026-08-08  
-Current state: Phases 0–6 complete; Phase 7 publication/deployment in progress  
-Next phase: publish the verified repository, deploy Streamlit, and freeze
+Current state: Phases 0–8 complete; submission-ready freeze
+
+Next phase: participant submits the prepared Devpost entry; no feature development
 
 ## 1. North star
 
@@ -95,8 +96,8 @@ Raw/processed build data remains ignored; the public runtime bundle is only abou
 | 4. Simulation and explanations | Complete | 12 deterministic candidate runs in ~0.4 s; transition/ranking tests pass |
 | 5. Core Streamlit MVP | Complete | Decision Room and How It Works pass AppTest and browser flow |
 | 6. Scenario coverage and polish | Complete | All scenarios, tie/agreement language, what-if, navigation visually reviewed |
-| 7. Submission package and deployment | In progress | README/CI/submission package complete; GitHub push and Streamlit deployment remain |
-| 8. Buffer and freeze | Not started | — |
+| 7. Submission package and deployment | Complete | Public repo and live Streamlit app verified in a clean browser session |
+| 8. Buffer and freeze | Complete | 26 tests and artifact validator pass; scope frozen for submission |
 
 ## 7. Competition memory
 
@@ -164,7 +165,7 @@ These are intentionally unresolved; use the stated default unless evidence says 
 | Simulation count | Resolved | 2,000 deterministic runs per candidate |
 | Practical tie threshold | Resolved | 0.5 percentage point |
 | Fourth/fifth scenarios | Phase 6 | Deferred unless MVP frozen |
-| Hosting/public URL | Phase 7 | Streamlit host after user authorization |
+| Hosting/public URL | Resolved | <https://the-hook.streamlit.app/> |
 
 ## 11. Decision log
 
@@ -240,7 +241,7 @@ Also update the phase-status table near the top. Do not erase prior decision-log
 
 ## 13. Next action
 
-Publish `main`, deploy `app.py` on Streamlit Community Cloud, test the public URL, add it to README/final checklist, and perform the Phase 8 freeze. Do not add features.
+Submit the prepared Devpost entry using `submission/devpost_description.md`, `submission/demo_script.md`, and `submission/final_checklist.md`. The project is frozen; do not add features before judging.
 
 ### 2026-08-08 — Phase 1 handoff
 
@@ -284,9 +285,11 @@ Publish `main`, deploy `app.py` on Streamlit Community Cloud, test the public UR
 - Verified with: Streamlit AppTest plus in-app-browser selection, what-if, navigation, DOM, and visual review; no runtime network client imports.
 - Decisions: use compact custom sidebar navigation; retain one ranking chart and one calibration chart; freeze feature scope.
 
-### 2026-08-08 — Phase 7 packaging handoff
+### 2026-08-08 — Phases 7–8 handoff
 
-- Status: In progress pending external publication/deployment.
-- Completed: README, MIT license, runtime/development dependency split, GitHub Actions, Devpost description, demo script, judge Q&A, final checklist, and fail-closed artifact validation.
-- Verified with: `scripts/validate_artifacts.py` passes; public artifact bundle is 41,572 bytes; `pytest -q` reports 26 passed.
-- Remaining: commit/push `main`, deploy Streamlit, test public URL, add live link/screenshots, and freeze Phase 8.
+- Status: Complete; submission-ready freeze.
+- Completed: public GitHub repository, MIT license, Streamlit deployment, README/screenshots, CI, Devpost description, demo script, judge Q&A, and final checklist.
+- Live URLs: <https://the-hook.streamlit.app/> and <https://github.com/Harshyadav442277/the-hook>.
+- Verified with: clean-session checks of the Decision Room and How It Works routes; flagship values 44.0% vs 47.6% (+3.6 pp); no browser console errors; `scripts/validate_artifacts.py` passes; `pytest -q` reports 26 passed.
+- Decisions: freeze all feature work; only correctness or deployment fixes are allowed before judging.
+- Known issues: Devpost submission itself requires the participant's account and remains the only human action.
