@@ -6,6 +6,21 @@ THE HOOK replays three verified, high-leverage MLB pitching changes. It compares
 
 Built for the [AQX Sports Analytics Data Bowl 3.0](https://aqxanalyticsthree.devpost.com/).
 
+![THE HOOK Decision Room](assets/screenshots/decision-room.png)
+
+<details>
+<summary>More screenshots</summary>
+
+### Reliever what-if
+
+![THE HOOK what-if comparison](assets/screenshots/what-if.png)
+
+### Method and validation
+
+![THE HOOK methodology page](assets/screenshots/how-it-works.png)
+
+</details>
+
 ## The decision
 
 It is the 12th inning of Game 3 of the 2025 World Series. The bases are loaded, there are two outs, and the Dodgers need one more out to preserve a 5–5 tie.
