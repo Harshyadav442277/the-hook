@@ -1,0 +1,4 @@
+-r requirements.txt
+pybaseball==2.2.7
+requests==2.34.2
+pytest==9.1.1

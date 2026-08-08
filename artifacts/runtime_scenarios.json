@@ -1,0 +1,825 @@
+[
+  {
+    "scenario_id": "2025-10-27-lad-813032",
+    "title": "LAD bullpen decision \u00b7 Top 12",
+    "is_flagship": true,
+    "game_pk": 813032,
+    "game_date": "2025-10-27",
+    "as_of_timestamp": "2025-10-27T00:00:00Z",
+    "batting_team": "TOR",
+    "fielding_team": "LAD",
+    "home_team": "LAD",
+    "away_team": "TOR",
+    "inning": 12,
+    "inning_half": "TOP",
+    "home_score": 5,
+    "away_score": 5,
+    "outs": 2,
+    "bases": {
+      "first": true,
+      "second": true,
+      "third": true
+    },
+    "current_pitcher_id": 686218,
+    "upcoming_batter_ids": [
+      664770,
+      665489,
+      643396
+    ],
+    "actual_choice_id": 477132,
+    "candidate_reliever_ids": [
+      477132,
+      686218,
+      681911,
+      683618
+    ],
+    "at_bat_number": 104,
+    "fielding_win_probability_before": 0.415,
+    "leverage_score": 3.1319999999999997,
+    "decision_note": "Late-game pitching change with a close score; candidate alternatives come from the club's recent relief usage and exclude pitchers already used.",
+    "source_urls": [
+      "https://www.mlb.com/gameday/813032/final/box",
+      "https://statsapi.mlb.com/api/v1.1/game/813032/feed/live"
+    ],
+    "manual_reviewed": true,
+    "player_names": {
+      "477132": "Kershaw, Clayton",
+      "643396": "Kiner-Falefa, Isiah",
+      "664770": "Nathan Lukes",
+      "665489": "Vladimir Guerrero Jr.",
+      "681911": "Vesia, Alex",
+      "683618": "Henriquez, Edgardo",
+      "686218": "Sheehan, Emmet"
+    },
+    "reviewed_against": "https://statsapi.mlb.com/api/v1.1/game/813032/feed/live",
+    "display_names": {
+      "477132": "Clayton Kershaw",
+      "643396": "Isiah Kiner-Falefa",
+      "664770": "Nathan Lukes",
+      "665489": "Vladimir Guerrero Jr.",
+      "681911": "Alex Vesia",
+      "683618": "Edgardo Henriquez",
+      "686218": "Emmet Sheehan"
+    },
+    "candidate_evidence": [
+      {
+        "candidate_id": 477132,
+        "candidate_name": "Clayton Kershaw",
+        "pitcher_hand": "L",
+        "pitcher_pa_before": 458,
+        "pitcher_k_rate": 0.196048632218845,
+        "pitcher_walk_rate": 0.08206686930091185,
+        "pitcher_woba": 0.3027439024390244,
+        "days_rest": 19,
+        "mean_projected_out_probability": 0.666465662391989,
+        "profile_as_of_date": "2025-09-28",
+        "uses_league_fallback": false
+      },
+      {
+        "candidate_id": 686218,
+        "candidate_name": "Emmet Sheehan",
+        "pitcher_hand": "R",
+        "pitcher_pa_before": 287,
+        "pitcher_k_rate": 0.2751540041067762,
+        "pitcher_walk_rate": 0.08418891170431211,
+        "pitcher_woba": 0.2802874743326489,
+        "days_rest": 0,
+        "mean_projected_out_probability": 0.7003279339071627,
+        "profile_as_of_date": "2025-09-26",
+        "uses_league_fallback": false
+      },
+      {
+        "candidate_id": 681911,
+        "candidate_name": "Alex Vesia",
+        "pitcher_hand": "L",
+        "pitcher_pa_before": 250,
+        "pitcher_k_rate": 0.2866666666666667,
+        "pitcher_walk_rate": 0.10222222222222223,
+        "pitcher_woba": 0.2891011235955056,
+        "days_rest": 10,
+        "mean_projected_out_probability": 0.6923040640358261,
+        "profile_as_of_date": "2025-10-17",
+        "uses_league_fallback": false
+      },
+      {
+        "candidate_id": 683618,
+        "candidate_name": "Edgardo Henriquez",
+        "pitcher_hand": "R",
+        "pitcher_pa_before": 79,
+        "pitcher_k_rate": 0.22939068100358423,
+        "pitcher_walk_rate": 0.08602150537634409,
+        "pitcher_woba": 0.30773381294964025,
+        "days_rest": 27,
+        "mean_projected_out_probability": 0.6565010098405661,
+        "profile_as_of_date": "2025-09-30",
+        "uses_league_fallback": false
+      }
+    ],
+    "matchup_probabilities": {
+      "477132": [
+        [
+          0.6759794882143586,
+          0.06778939196326993,
+          0.1765902624676303,
+          0.0796408573547412
+        ],
+        [
+          0.6362651968970852,
+          0.09320416967872373,
+          0.18304550462357635,
+          0.08748512880061493
+        ],
+        [
+          0.6871523020645233,
+          0.04310853536000895,
+          0.20314513342635024,
+          0.06659402914911756
+        ]
+      ],
+      "686218": [
+        [
+          0.7084823110482087,
+          0.08485112893806576,
+          0.13937632893976462,
+          0.06729023107396108
+        ],
+        [
+          0.66558706332338,
+          0.11644006482633888,
+          0.1441957788698533,
+          0.0737770929804278
+        ],
+        [
+          0.7269144273498993,
+          0.05446204483297678,
+          0.16183165715416753,
+          0.0567918706629565
+        ]
+      ],
+      "681911": [
+        [
+          0.7001140726709772,
+          0.10680792628139982,
+          0.13283717082607557,
+          0.060240830221547484
+        ],
+        [
+          0.6526509956527503,
+          0.14544025712233893,
+          0.13637020085018195,
+          0.06553854637472874
+        ],
+        [
+          0.7241471237837507,
+          0.06911041920229373,
+          0.15548833142381496,
+          0.05125412559014064
+        ]
+      ],
+      "683618": [
+        [
+          0.6655002577286784,
+          0.08994434275800837,
+          0.16744789093224866,
+          0.0771075085810646
+        ],
+        [
+          0.6212218771377388,
+          0.1226425915981891,
+          0.1721336827818973,
+          0.08400184848217479
+        ],
+        [
+          0.6827808946552811,
+          0.05772833428042095,
+          0.1944164447696768,
+          0.06507432629462108
+        ]
+      ]
+    },
+    "default_ranking": [
+      {
+        "estimated_win_probability": 0.47642209577637323,
+        "expected_runs_allowed": 0.641,
+        "simulation_count": 2000,
+        "seed": 42120489,
+        "scenario_id": "2025-10-27-lad-813032",
+        "candidate_id": 686218,
+        "candidate_name": "Emmet Sheehan",
+        "reasons": [
+          "a stronger league-pooled strikeout profile",
+          "a stronger projected out rate against the next three hitters",
+          "a lower league-pooled wOBA allowed profile"
+        ],
+        "rank": 1,
+        "delta_vs_actual": 0.03604823049217426,
+        "is_actual_choice": false,
+        "is_recommended": true,
+        "effectively_tied": true
+      },
+      {
+        "estimated_win_probability": 0.46863829283294783,
+        "expected_runs_allowed": 0.6585,
+        "simulation_count": 2000,
+        "seed": 2561085500,
+        "scenario_id": "2025-10-27-lad-813032",
+        "candidate_id": 681911,
+        "candidate_name": "Alex Vesia",
+        "reasons": [
+          "a stronger league-pooled strikeout profile",
+          "a stronger projected out rate against the next three hitters",
+          "a lower league-pooled wOBA allowed profile"
+        ],
+        "rank": 2,
+        "delta_vs_actual": 0.02826442754874886,
+        "is_actual_choice": false,
+        "is_recommended": false,
+        "effectively_tied": false
+      },
+      {
+        "estimated_win_probability": 0.4469786136204964,
+        "expected_runs_allowed": 0.802,
+        "simulation_count": 2000,
+        "seed": 4016288056,
+        "scenario_id": "2025-10-27-lad-813032",
+        "candidate_id": 683618,
+        "candidate_name": "Edgardo Henriquez",
+        "reasons": [
+          "more rest before the decision"
+        ],
+        "rank": 3,
+        "delta_vs_actual": 0.006604748336297428,
+        "is_actual_choice": false,
+        "is_recommended": false,
+        "effectively_tied": false
+      },
+      {
+        "estimated_win_probability": 0.440373865284199,
+        "expected_runs_allowed": 0.839,
+        "simulation_count": 2000,
+        "seed": 3186493554,
+        "scenario_id": "2025-10-27-lad-813032",
+        "candidate_id": 477132,
+        "candidate_name": "Clayton Kershaw",
+        "reasons": [
+          "more rest before the decision",
+          "better projected walk suppression"
+        ],
+        "rank": 4,
+        "delta_vs_actual": 0.0,
+        "is_actual_choice": true,
+        "is_recommended": false,
+        "effectively_tied": false
+      }
+    ],
+    "profile_cutoff_rule": "latest snapshot strictly before game_date"
+  },
+  {
+    "scenario_id": "2026-08-06-cws-824729",
+    "title": "CWS bullpen decision \u00b7 Bottom 11",
+    "is_flagship": false,
+    "game_pk": 824729,
+    "game_date": "2026-08-06",
+    "as_of_timestamp": "2026-08-06T00:00:00Z",
+    "batting_team": "BOS",
+    "fielding_team": "CWS",
+    "home_team": "BOS",
+    "away_team": "CWS",
+    "inning": 11,
+    "inning_half": "BOTTOM",
+    "home_score": 10,
+    "away_score": 10,
+    "outs": 2,
+    "bases": {
+      "first": true,
+      "second": true,
+      "third": true
+    },
+    "current_pitcher_id": 670950,
+    "upcoming_batter_ids": [
+      680776,
+      678011,
+      668670
+    ],
+    "actual_choice_id": 669684,
+    "candidate_reliever_ids": [
+      669684,
+      670950,
+      622554,
+      656794
+    ],
+    "at_bat_number": 106,
+    "fielding_win_probability_before": 0.36,
+    "leverage_score": 3.0046666666666666,
+    "decision_note": "Late-game pitching change with a close score; candidate alternatives come from the club's recent relief usage and exclude pitchers already used.",
+    "source_urls": [
+      "https://www.mlb.com/gameday/824729/final/box",
+      "https://statsapi.mlb.com/api/v1.1/game/824729/feed/live"
+    ],
+    "manual_reviewed": true,
+    "player_names": {
+      "622554": "Dom\u00ednguez, Seranthony",
+      "656794": "Newcomb, Sean",
+      "668670": "Rogers, Jake",
+      "669684": "Murphy, Chris",
+      "670950": "Richards, Trevor",
+      "678011": "Seigler, Anthony",
+      "680776": "Jarren Duran"
+    },
+    "reviewed_against": "https://statsapi.mlb.com/api/v1.1/game/824729/feed/live",
+    "display_names": {
+      "622554": "Seranthony Dom\u00ednguez",
+      "656794": "Sean Newcomb",
+      "668670": "Jake Rogers",
+      "669684": "Chris Murphy",
+      "670950": "Trevor Richards",
+      "678011": "Anthony Seigler",
+      "680776": "Jarren Duran"
+    },
+    "candidate_evidence": [
+      {
+        "candidate_id": 669684,
+        "candidate_name": "Chris Murphy",
+        "pitcher_hand": "L",
+        "pitcher_pa_before": 277,
+        "pitcher_k_rate": 0.21593291404612158,
+        "pitcher_walk_rate": 0.129979035639413,
+        "pitcher_woba": 0.3081370449678801,
+        "days_rest": 1,
+        "mean_projected_out_probability": 0.6676482687890478,
+        "profile_as_of_date": "2026-07-30",
+        "uses_league_fallback": false
+      },
+      {
+        "candidate_id": 670950,
+        "candidate_name": "Trevor Richards",
+        "pitcher_hand": "R",
+        "pitcher_pa_before": 221,
+        "pitcher_k_rate": 0.24465558194774348,
+        "pitcher_walk_rate": 0.07363420427553444,
+        "pitcher_woba": 0.3101694915254237,
+        "days_rest": 0,
+        "mean_projected_out_probability": 0.6979508303399949,
+        "profile_as_of_date": "2026-07-31",
+        "uses_league_fallback": false
+      },
+      {
+        "candidate_id": 622554,
+        "candidate_name": "Seranthony Dom\u00ednguez",
+        "pitcher_hand": "R",
+        "pitcher_pa_before": 484,
+        "pitcher_k_rate": 0.27046783625730997,
+        "pitcher_walk_rate": 0.1388888888888889,
+        "pitcher_woba": 0.3071535022354695,
+        "days_rest": 2,
+        "mean_projected_out_probability": 0.6864780218056522,
+        "profile_as_of_date": "2026-08-04",
+        "uses_league_fallback": false
+      },
+      {
+        "candidate_id": 656794,
+        "candidate_name": "Sean Newcomb",
+        "pitcher_hand": "L",
+        "pitcher_pa_before": 652,
+        "pitcher_k_rate": 0.2300469483568075,
+        "pitcher_walk_rate": 0.09741784037558686,
+        "pitcher_woba": 0.3042978208232445,
+        "days_rest": 1,
+        "mean_projected_out_probability": 0.7104189139665934,
+        "profile_as_of_date": "2026-08-05",
+        "uses_league_fallback": false
+      }
+    ],
+    "matchup_probabilities": {
+      "669684": [
+        [
+          0.6538122424812554,
+          0.1506531426073872,
+          0.11115548885191065,
+          0.08437912605944671
+        ],
+        [
+          0.6715138936519519,
+          0.12416915509380182,
+          0.14526933831693306,
+          0.05904761293731314
+        ],
+        [
+          0.6776186702339362,
+          0.1419608694128183,
+          0.11767774389492698,
+          0.06274271645831848
+        ]
+      ],
+      "670950": [
+        [
+          0.6841126452271655,
+          0.10121976744480746,
+          0.11108632378341109,
+          0.10358126354461604
+        ],
+        [
+          0.7000273650343534,
+          0.08311632084882066,
+          0.14464022386575215,
+          0.07221609025107376
+        ],
+        [
+          0.7097124807584658,
+          0.09547250103675155,
+          0.117718989322263,
+          0.07709602888251968
+        ]
+      ],
+      "622554": [
+        [
+          0.6720096800104799,
+          0.16151963993560348,
+          0.09394136532315003,
+          0.07252931473076661
+        ],
+        [
+          0.692380303365423,
+          0.13354514064798798,
+          0.12315927812288303,
+          0.050915277863705886
+        ],
+        [
+          0.6950440820410537,
+          0.15188689313860873,
+          0.09924869253677457,
+          0.0538203322835628
+        ]
+      ],
+      "656794": [
+        [
+          0.7002506786715355,
+          0.09086372265025335,
+          0.12211408676847758,
+          0.0867715119097336
+        ],
+        [
+          0.7089909811117974,
+          0.07382632908308383,
+          0.1573236556336516,
+          0.05985903417146727
+        ],
+        [
+          0.7220150821164476,
+          0.08518073768004462,
+          0.12861440193915086,
+          0.06418977826435683
+        ]
+      ]
+    },
+    "default_ranking": [
+      {
+        "estimated_win_probability": 0.3570742065906445,
+        "expected_runs_allowed": 0.736,
+        "simulation_count": 2000,
+        "seed": 4251529579,
+        "scenario_id": "2026-08-06-cws-824729",
+        "candidate_id": 656794,
+        "candidate_name": "Sean Newcomb",
+        "reasons": [
+          "a stronger projected out rate against the next three hitters",
+          "better projected walk suppression",
+          "a lower league-pooled wOBA allowed profile"
+        ],
+        "rank": 1,
+        "delta_vs_actual": 0.004523695312531328,
+        "is_actual_choice": false,
+        "is_recommended": true,
+        "effectively_tied": true
+      },
+      {
+        "estimated_win_probability": 0.35255051127811315,
+        "expected_runs_allowed": 0.7315,
+        "simulation_count": 2000,
+        "seed": 1342215136,
+        "scenario_id": "2026-08-06-cws-824729",
+        "candidate_id": 669684,
+        "candidate_name": "Chris Murphy",
+        "reasons": [
+          "the best combined projected outcome distribution under the shared assumptions"
+        ],
+        "rank": 2,
+        "delta_vs_actual": 0.0,
+        "is_actual_choice": true,
+        "is_recommended": false,
+        "effectively_tied": true
+      },
+      {
+        "estimated_win_probability": 0.3517923398030537,
+        "expected_runs_allowed": 0.755,
+        "simulation_count": 2000,
+        "seed": 2137386663,
+        "scenario_id": "2026-08-06-cws-824729",
+        "candidate_id": 670950,
+        "candidate_name": "Trevor Richards",
+        "reasons": [
+          "better projected walk suppression",
+          "a stronger league-pooled strikeout profile",
+          "a stronger projected out rate against the next three hitters"
+        ],
+        "rank": 3,
+        "delta_vs_actual": -0.0007581714750594659,
+        "is_actual_choice": false,
+        "is_recommended": false,
+        "effectively_tied": false
+      },
+      {
+        "estimated_win_probability": 0.34428804729783485,
+        "expected_runs_allowed": 0.7595,
+        "simulation_count": 2000,
+        "seed": 1556135857,
+        "scenario_id": "2026-08-06-cws-824729",
+        "candidate_id": 622554,
+        "candidate_name": "Seranthony Dom\u00ednguez",
+        "reasons": [
+          "a stronger league-pooled strikeout profile",
+          "more rest before the decision"
+        ],
+        "rank": 4,
+        "delta_vs_actual": -0.0082624639802783,
+        "is_actual_choice": false,
+        "is_recommended": false,
+        "effectively_tied": false
+      }
+    ],
+    "profile_cutoff_rule": "latest snapshot strictly before game_date"
+  },
+  {
+    "scenario_id": "2025-04-09-pit-778389",
+    "title": "PIT bullpen decision \u00b7 Top 12",
+    "is_flagship": false,
+    "game_pk": 778389,
+    "game_date": "2025-04-09",
+    "as_of_timestamp": "2025-04-09T00:00:00Z",
+    "batting_team": "STL",
+    "fielding_team": "PIT",
+    "home_team": "PIT",
+    "away_team": "STL",
+    "inning": 12,
+    "inning_half": "TOP",
+    "home_score": 0,
+    "away_score": 0,
+    "outs": 1,
+    "bases": {
+      "first": true,
+      "second": false,
+      "third": true
+    },
+    "current_pitcher_id": 621366,
+    "upcoming_batter_ids": [
+      691023,
+      686780,
+      687363
+    ],
+    "actual_choice_id": 664875,
+    "candidate_reliever_ids": [
+      664875,
+      621366,
+      666214,
+      670059
+    ],
+    "at_bat_number": 82,
+    "fielding_win_probability_before": 0.478,
+    "leverage_score": 2.9824,
+    "decision_note": "Late-game pitching change with a close score; candidate alternatives come from the club's recent relief usage and exclude pitchers already used.",
+    "source_urls": [
+      "https://www.mlb.com/gameday/778389/final/box",
+      "https://statsapi.mlb.com/api/v1.1/game/778389/feed/live"
+    ],
+    "manual_reviewed": true,
+    "player_names": {
+      "621366": "Borucki, Ryan",
+      "664875": "Lawrence, Justin",
+      "666214": "Wentz, Joey",
+      "670059": "Holderman, Colin",
+      "686780": "Pedro Pag\u00e9s",
+      "687363": "Victor Scott II",
+      "691023": "Jordan Walker"
+    },
+    "reviewed_against": "https://statsapi.mlb.com/api/v1.1/game/778389/feed/live",
+    "display_names": {
+      "621366": "Ryan Borucki",
+      "664875": "Justin Lawrence",
+      "666214": "Joey Wentz",
+      "670059": "Colin Holderman",
+      "686780": "Pedro Pag\u00e9s",
+      "687363": "Victor Scott II",
+      "691023": "Jordan Walker"
+    },
+    "candidate_evidence": [
+      {
+        "candidate_id": 664875,
+        "candidate_name": "Justin Lawrence",
+        "pitcher_hand": "R",
+        "pitcher_pa_before": 7,
+        "pitcher_k_rate": 0.2318840579710145,
+        "pitcher_walk_rate": 0.08695652173913043,
+        "pitcher_woba": 0.31811594202898547,
+        "days_rest": 4,
+        "mean_projected_out_probability": 0.6811867899937396,
+        "profile_as_of_date": "2025-03-30",
+        "uses_league_fallback": false
+      },
+      {
+        "candidate_id": 621366,
+        "candidate_name": "Ryan Borucki",
+        "pitcher_hand": "L",
+        "pitcher_pa_before": 9,
+        "pitcher_k_rate": 0.23923444976076555,
+        "pitcher_walk_rate": 0.0861244019138756,
+        "pitcher_woba": 0.3090909090909091,
+        "days_rest": 0,
+        "mean_projected_out_probability": 0.6887043223454826,
+        "profile_as_of_date": "2025-03-31",
+        "uses_league_fallback": false
+      },
+      {
+        "candidate_id": 666214,
+        "candidate_name": "Joey Wentz",
+        "pitcher_hand": "L",
+        "pitcher_pa_before": 13,
+        "pitcher_k_rate": 0.22535211267605634,
+        "pitcher_walk_rate": 0.09389671361502347,
+        "pitcher_woba": 0.3146919431279621,
+        "days_rest": 3,
+        "mean_projected_out_probability": 0.6790789040591155,
+        "profile_as_of_date": "2025-03-31",
+        "uses_league_fallback": false
+      },
+      {
+        "candidate_id": 670059,
+        "candidate_name": "Colin Holderman",
+        "pitcher_hand": "R",
+        "pitcher_pa_before": 15,
+        "pitcher_k_rate": 0.22790697674418606,
+        "pitcher_walk_rate": 0.09302325581395349,
+        "pitcher_woba": 0.32465116279069767,
+        "days_rest": 4,
+        "mean_projected_out_probability": 0.6741075762277552,
+        "profile_as_of_date": "2025-03-30",
+        "uses_league_fallback": false
+      }
+    ],
+    "matchup_probabilities": {
+      "664875": [
+        [
+          0.6772286682246019,
+          0.10693741628607177,
+          0.14561989459103863,
+          0.07021402089828767
+        ],
+        [
+          0.6833701623493383,
+          0.09700926643177951,
+          0.1418580262051872,
+          0.07776254501369505
+        ],
+        [
+          0.6829615394072786,
+          0.10401514369409903,
+          0.13743123914715435,
+          0.07559207775146809
+        ]
+      ],
+      "621366": [
+        [
+          0.6845321232495193,
+          0.107141009433686,
+          0.14361272257559063,
+          0.06471414474120404
+        ],
+        [
+          0.6910799260907707,
+          0.09724181002823297,
+          0.13997158571413,
+          0.0717066781668664
+        ],
+        [
+          0.6905009176961577,
+          0.10423945547648865,
+          0.1355711185608902,
+          0.06968850826646353
+        ]
+      ],
+      "666214": [
+        [
+          0.6747309892945759,
+          0.10928860032126608,
+          0.1511854486648754,
+          0.06479496171928271
+        ],
+        [
+          0.6815090584180883,
+          0.09923815809111086,
+          0.14742240470927306,
+          0.07183037878152775
+        ],
+        [
+          0.6809966644646822,
+          0.10638861740894999,
+          0.14279998363576937,
+          0.0698147344905984
+        ]
+      ],
+      "670059": [
+        [
+          0.6698829101537346,
+          0.11570585170429999,
+          0.1453501142029749,
+          0.06906112393899054
+        ],
+        [
+          0.6766328377241713,
+          0.10506845624395492,
+          0.1417366200207444,
+          0.07656208601112953
+        ],
+        [
+          0.67580698080536,
+          0.11258617692231139,
+          0.13722808075647988,
+          0.07437876151584871
+        ]
+      ]
+    },
+    "default_ranking": [
+      {
+        "estimated_win_probability": 0.41611595339064256,
+        "expected_runs_allowed": 0.7505,
+        "simulation_count": 2000,
+        "seed": 1952248589,
+        "scenario_id": "2025-04-09-pit-778389",
+        "candidate_id": 664875,
+        "candidate_name": "Justin Lawrence",
+        "reasons": [
+          "more rest before the decision",
+          "better projected walk suppression"
+        ],
+        "rank": 1,
+        "delta_vs_actual": 0.0,
+        "is_actual_choice": true,
+        "is_recommended": true,
+        "effectively_tied": true
+      },
+      {
+        "estimated_win_probability": 0.41449927039175477,
+        "expected_runs_allowed": 0.7665,
+        "simulation_count": 2000,
+        "seed": 3071931994,
+        "scenario_id": "2025-04-09-pit-778389",
+        "candidate_id": 621366,
+        "candidate_name": "Ryan Borucki",
+        "reasons": [
+          "a stronger league-pooled strikeout profile",
+          "a stronger projected out rate against the next three hitters",
+          "a lower league-pooled wOBA allowed profile"
+        ],
+        "rank": 2,
+        "delta_vs_actual": -0.0016166829988877862,
+        "is_actual_choice": false,
+        "is_recommended": false,
+        "effectively_tied": true
+      },
+      {
+        "estimated_win_probability": 0.41338755145072736,
+        "expected_runs_allowed": 0.7675,
+        "simulation_count": 2000,
+        "seed": 3344621987,
+        "scenario_id": "2025-04-09-pit-778389",
+        "candidate_id": 666214,
+        "candidate_name": "Joey Wentz",
+        "reasons": [
+          "the best combined projected outcome distribution under the shared assumptions"
+        ],
+        "rank": 3,
+        "delta_vs_actual": -0.0027284019399151926,
+        "is_actual_choice": false,
+        "is_recommended": false,
+        "effectively_tied": true
+      },
+      {
+        "estimated_win_probability": 0.4077358911536001,
+        "expected_runs_allowed": 0.793,
+        "simulation_count": 2000,
+        "seed": 4055055406,
+        "scenario_id": "2025-04-09-pit-778389",
+        "candidate_id": 670059,
+        "candidate_name": "Colin Holderman",
+        "reasons": [
+          "more rest before the decision"
+        ],
+        "rank": 4,
+        "delta_vs_actual": -0.008380062237042463,
+        "is_actual_choice": false,
+        "is_recommended": false,
+        "effectively_tied": false
+      }
+    ],
+    "profile_cutoff_rule": "latest snapshot strictly before game_date"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "generated_at_utc": "2026-08-08T08:23:46.863582+00:00",
+  "passed": true,
+  "failures": [],
+  "scenario_count": 3,
+  "flagship_count": 1,
+  "candidate_count": 12,
+  "artifact_bytes": 41572,
+  "runtime_network_clients": false,
+  "models_load_in_fresh_process": true
+}

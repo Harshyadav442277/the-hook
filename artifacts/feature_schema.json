@@ -1,0 +1,39 @@
+{
+  "matchup_features": [
+    "pitcher_pa_before",
+    "pitcher_out_rate",
+    "pitcher_free_pass_rate",
+    "pitcher_single_rate",
+    "pitcher_extra_base_rate",
+    "pitcher_k_rate",
+    "pitcher_walk_rate",
+    "pitcher_woba",
+    "batter_pa_before",
+    "batter_out_rate",
+    "batter_free_pass_rate",
+    "batter_single_rate",
+    "batter_extra_base_rate",
+    "batter_k_rate",
+    "batter_walk_rate",
+    "batter_woba",
+    "pitcher_days_since_prev_game",
+    "pitcher_hand",
+    "batter_stand"
+  ],
+  "state_features": [
+    "inning",
+    "outs_before",
+    "on_1b_before",
+    "on_2b_before",
+    "on_3b_before",
+    "fielding_team_is_home",
+    "fielding_score_diff",
+    "score_diff_x_inning"
+  ],
+  "matchup_classes": [
+    "EXTRA_BASE",
+    "FREE_PASS",
+    "OUT",
+    "SINGLE"
+  ]
+}

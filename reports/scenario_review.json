@@ -1,0 +1,113 @@
+{
+  "all_passed": true,
+  "reviews": [
+    {
+      "scenario_id": "2025-10-27-lad-813032",
+      "source_url": "https://statsapi.mlb.com/api/v1.1/game/813032/feed/live",
+      "official": {
+        "actual_pitcher_id": 477132,
+        "previous_pitcher_id": 686218,
+        "upcoming_batter_ids": [
+          664770,
+          665489,
+          643396
+        ],
+        "inning": 12,
+        "inning_half": "TOP",
+        "outs": 2,
+        "home_score": 5,
+        "away_score": 5,
+        "bases": {
+          "first": true,
+          "second": true,
+          "third": true
+        }
+      },
+      "checks": {
+        "actual_pitcher": true,
+        "previous_pitcher": true,
+        "upcoming_batters": true,
+        "inning": true,
+        "half": true,
+        "outs": true,
+        "score": true,
+        "bases": true,
+        "actual_in_candidates": true,
+        "candidate_count": true
+      },
+      "passed": true
+    },
+    {
+      "scenario_id": "2026-08-06-cws-824729",
+      "source_url": "https://statsapi.mlb.com/api/v1.1/game/824729/feed/live",
+      "official": {
+        "actual_pitcher_id": 669684,
+        "previous_pitcher_id": 670950,
+        "upcoming_batter_ids": [
+          680776,
+          678011,
+          668670
+        ],
+        "inning": 11,
+        "inning_half": "BOTTOM",
+        "outs": 2,
+        "home_score": 10,
+        "away_score": 10,
+        "bases": {
+          "first": true,
+          "second": true,
+          "third": true
+        }
+      },
+      "checks": {
+        "actual_pitcher": true,
+        "previous_pitcher": true,
+        "upcoming_batters": true,
+        "inning": true,
+        "half": true,
+        "outs": true,
+        "score": true,
+        "bases": true,
+        "actual_in_candidates": true,
+        "candidate_count": true
+      },
+      "passed": true
+    },
+    {
+      "scenario_id": "2025-04-09-pit-778389",
+      "source_url": "https://statsapi.mlb.com/api/v1.1/game/778389/feed/live",
+      "official": {
+        "actual_pitcher_id": 664875,
+        "previous_pitcher_id": 621366,
+        "upcoming_batter_ids": [
+          691023,
+          686780,
+          687363
+        ],
+        "inning": 12,
+        "inning_half": "TOP",
+        "outs": 1,
+        "home_score": 0,
+        "away_score": 0,
+        "bases": {
+          "first": true,
+          "second": false,
+          "third": true
+        }
+      },
+      "checks": {
+        "actual_pitcher": true,
+        "previous_pitcher": true,
+        "upcoming_batters": true,
+        "inning": true,
+        "half": true,
+        "outs": true,
+        "score": true,
+        "bases": true,
+        "actual_in_candidates": true,
+        "candidate_count": true
+      },
+      "passed": true
+    }
+  ]
+}

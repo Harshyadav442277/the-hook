@@ -1,0 +1,164 @@
+[
+  {
+    "scenario_id": "2025-10-27-lad-813032",
+    "title": "LAD bullpen decision \u00b7 Top 12",
+    "is_flagship": true,
+    "game_pk": 813032,
+    "game_date": "2025-10-27",
+    "as_of_timestamp": "2025-10-27T00:00:00Z",
+    "batting_team": "TOR",
+    "fielding_team": "LAD",
+    "home_team": "LAD",
+    "away_team": "TOR",
+    "inning": 12,
+    "inning_half": "TOP",
+    "home_score": 5,
+    "away_score": 5,
+    "outs": 2,
+    "bases": {
+      "first": true,
+      "second": true,
+      "third": true
+    },
+    "current_pitcher_id": 686218,
+    "upcoming_batter_ids": [
+      664770,
+      665489,
+      643396
+    ],
+    "actual_choice_id": 477132,
+    "candidate_reliever_ids": [
+      477132,
+      686218,
+      681911,
+      683618
+    ],
+    "at_bat_number": 104,
+    "fielding_win_probability_before": 0.415,
+    "leverage_score": 3.1319999999999997,
+    "decision_note": "Late-game pitching change with a close score; candidate alternatives come from the club's recent relief usage and exclude pitchers already used.",
+    "source_urls": [
+      "https://www.mlb.com/gameday/813032/final/box",
+      "https://statsapi.mlb.com/api/v1.1/game/813032/feed/live"
+    ],
+    "manual_reviewed": true,
+    "player_names": {
+      "477132": "Kershaw, Clayton",
+      "643396": "Kiner-Falefa, Isiah",
+      "664770": "Nathan Lukes",
+      "665489": "Vladimir Guerrero Jr.",
+      "681911": "Vesia, Alex",
+      "683618": "Henriquez, Edgardo",
+      "686218": "Sheehan, Emmet"
+    },
+    "reviewed_against": "https://statsapi.mlb.com/api/v1.1/game/813032/feed/live"
+  },
+  {
+    "scenario_id": "2026-08-06-cws-824729",
+    "title": "CWS bullpen decision \u00b7 Bottom 11",
+    "is_flagship": false,
+    "game_pk": 824729,
+    "game_date": "2026-08-06",
+    "as_of_timestamp": "2026-08-06T00:00:00Z",
+    "batting_team": "BOS",
+    "fielding_team": "CWS",
+    "home_team": "BOS",
+    "away_team": "CWS",
+    "inning": 11,
+    "inning_half": "BOTTOM",
+    "home_score": 10,
+    "away_score": 10,
+    "outs": 2,
+    "bases": {
+      "first": true,
+      "second": true,
+      "third": true
+    },
+    "current_pitcher_id": 670950,
+    "upcoming_batter_ids": [
+      680776,
+      678011,
+      668670
+    ],
+    "actual_choice_id": 669684,
+    "candidate_reliever_ids": [
+      669684,
+      670950,
+      622554,
+      656794
+    ],
+    "at_bat_number": 106,
+    "fielding_win_probability_before": 0.36,
+    "leverage_score": 3.0046666666666666,
+    "decision_note": "Late-game pitching change with a close score; candidate alternatives come from the club's recent relief usage and exclude pitchers already used.",
+    "source_urls": [
+      "https://www.mlb.com/gameday/824729/final/box",
+      "https://statsapi.mlb.com/api/v1.1/game/824729/feed/live"
+    ],
+    "manual_reviewed": true,
+    "player_names": {
+      "622554": "Dom\u00ednguez, Seranthony",
+      "656794": "Newcomb, Sean",
+      "668670": "Rogers, Jake",
+      "669684": "Murphy, Chris",
+      "670950": "Richards, Trevor",
+      "678011": "Seigler, Anthony",
+      "680776": "Jarren Duran"
+    },
+    "reviewed_against": "https://statsapi.mlb.com/api/v1.1/game/824729/feed/live"
+  },
+  {
+    "scenario_id": "2025-04-09-pit-778389",
+    "title": "PIT bullpen decision \u00b7 Top 12",
+    "is_flagship": false,
+    "game_pk": 778389,
+    "game_date": "2025-04-09",
+    "as_of_timestamp": "2025-04-09T00:00:00Z",
+    "batting_team": "STL",
+    "fielding_team": "PIT",
+    "home_team": "PIT",
+    "away_team": "STL",
+    "inning": 12,
+    "inning_half": "TOP",
+    "home_score": 0,
+    "away_score": 0,
+    "outs": 1,
+    "bases": {
+      "first": true,
+      "second": false,
+      "third": true
+    },
+    "current_pitcher_id": 621366,
+    "upcoming_batter_ids": [
+      691023,
+      686780,
+      687363
+    ],
+    "actual_choice_id": 664875,
+    "candidate_reliever_ids": [
+      664875,
+      621366,
+      666214,
+      670059
+    ],
+    "at_bat_number": 82,
+    "fielding_win_probability_before": 0.478,
+    "leverage_score": 2.9824,
+    "decision_note": "Late-game pitching change with a close score; candidate alternatives come from the club's recent relief usage and exclude pitchers already used.",
+    "source_urls": [
+      "https://www.mlb.com/gameday/778389/final/box",
+      "https://statsapi.mlb.com/api/v1.1/game/778389/feed/live"
+    ],
+    "manual_reviewed": true,
+    "player_names": {
+      "621366": "Borucki, Ryan",
+      "664875": "Lawrence, Justin",
+      "666214": "Wentz, Joey",
+      "670059": "Holderman, Colin",
+      "686780": "Pedro Pag\u00e9s",
+      "687363": "Victor Scott II",
+      "691023": "Jordan Walker"
+    },
+    "reviewed_against": "https://statsapi.mlb.com/api/v1.1/game/778389/feed/live"
+  }
+]

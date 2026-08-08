@@ -1,0 +1,121 @@
+{
+  "matchup": {
+    "model_type": "regularized_multinomial_logistic_regression",
+    "train_end_date": "2025-12-31",
+    "train_date_min": "2025-03-27",
+    "train_date_max": "2025-11-01",
+    "holdout_date_min": "2026-03-15",
+    "holdout_date_max": "2026-08-06",
+    "train_rows": 184901,
+    "holdout_rows": 139534,
+    "classes": [
+      "EXTRA_BASE",
+      "FREE_PASS",
+      "OUT",
+      "SINGLE"
+    ],
+    "multiclass_log_loss": 0.9644611795302217,
+    "baseline_log_loss": 0.9700023070210937,
+    "log_loss_improvement": 0.005541127490871989,
+    "on_base_brier_score": 0.21741402591652625,
+    "feature_count": 19,
+    "features": [
+      "pitcher_pa_before",
+      "pitcher_out_rate",
+      "pitcher_free_pass_rate",
+      "pitcher_single_rate",
+      "pitcher_extra_base_rate",
+      "pitcher_k_rate",
+      "pitcher_walk_rate",
+      "pitcher_woba",
+      "batter_pa_before",
+      "batter_out_rate",
+      "batter_free_pass_rate",
+      "batter_single_rate",
+      "batter_extra_base_rate",
+      "batter_k_rate",
+      "batter_walk_rate",
+      "batter_woba",
+      "pitcher_days_since_prev_game",
+      "pitcher_hand",
+      "batter_stand"
+    ]
+  },
+  "win_expectancy": {
+    "model_type": "regularized_logistic_regression",
+    "train_end_date": "2025-12-31",
+    "train_rows": 184901,
+    "holdout_rows": 139534,
+    "log_loss": 0.47432493748135224,
+    "baseline_log_loss": 0.6927120898161768,
+    "brier_score": 0.1589970152031568,
+    "baseline_brier_score": 0.24978248616762105,
+    "features": [
+      "inning",
+      "outs_before",
+      "on_1b_before",
+      "on_2b_before",
+      "on_3b_before",
+      "fielding_team_is_home",
+      "fielding_score_diff",
+      "score_diff_x_inning"
+    ]
+  },
+  "state_sanity": {
+    "monotonic_in_score_diff": true,
+    "late_inning_magnifies_score": true,
+    "grid": [
+      {
+        "inning": 5,
+        "score_diff": -2,
+        "probability": 0.23461502010962523
+      },
+      {
+        "inning": 5,
+        "score_diff": -1,
+        "probability": 0.3864947634641624
+      },
+      {
+        "inning": 5,
+        "score_diff": 0,
+        "probability": 0.5642163886508698
+      },
+      {
+        "inning": 5,
+        "score_diff": 1,
+        "probability": 0.72684116609917
+      },
+      {
+        "inning": 5,
+        "score_diff": 2,
+        "probability": 0.84540631240144
+      },
+      {
+        "inning": 9,
+        "score_diff": -2,
+        "probability": 0.12098087624633931
+      },
+      {
+        "inning": 9,
+        "score_diff": -1,
+        "probability": 0.29475319266514094
+      },
+      {
+        "inning": 9,
+        "score_diff": 0,
+        "probability": 0.559308290380129
+      },
+      {
+        "inning": 9,
+        "score_diff": 1,
+        "probability": 0.793985718635764
+      },
+      {
+        "inning": 9,
+        "score_diff": 2,
+        "probability": 0.9212813012599035
+      }
+    ],
+    "pass": true
+  }
+}

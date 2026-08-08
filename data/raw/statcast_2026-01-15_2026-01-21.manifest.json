@@ -1,0 +1,14 @@
+{
+  "source": "MLB Statcast via pybaseball",
+  "start_date": "2026-01-15",
+  "end_date": "2026-01-21",
+  "row_count": 0,
+  "column_count": 0,
+  "columns": [],
+  "acquired_at_utc": "2026-08-08T08:00:07.415921+00:00",
+  "pybaseball_version": "2.2.7",
+  "pandas_version": "3.0.5",
+  "pyarrow_version": "24.0.0",
+  "cache_file": "statcast_2026-01-15_2026-01-21.parquet",
+  "sha256": "5b9ec578c7648bfc4673d5628b77f00ed74f7a1427f2bd31579477dd605cdc92"
+}

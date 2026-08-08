@@ -1,0 +1,51 @@
+{
+  "built_at_utc": "2026-08-08T08:11:51.346698+00:00",
+  "outcome_mapping_version": "1.0",
+  "profile_prior_weight": 200.0,
+  "league_priors": {
+    "OUT": 0.7,
+    "FREE_PASS": 0.09,
+    "SINGLE": 0.15,
+    "EXTRA_BASE": 0.06,
+    "K_RATE": 0.23,
+    "WALK_RATE": 0.085,
+    "WOBA": 0.315
+  },
+  "matchup_features": [
+    "pitcher_pa_before",
+    "pitcher_out_rate",
+    "pitcher_free_pass_rate",
+    "pitcher_single_rate",
+    "pitcher_extra_base_rate",
+    "pitcher_k_rate",
+    "pitcher_walk_rate",
+    "pitcher_woba",
+    "batter_pa_before",
+    "batter_out_rate",
+    "batter_free_pass_rate",
+    "batter_single_rate",
+    "batter_extra_base_rate",
+    "batter_k_rate",
+    "batter_walk_rate",
+    "batter_woba",
+    "pitcher_days_since_prev_game",
+    "pitcher_hand",
+    "batter_stand"
+  ],
+  "state_features": [
+    "inning",
+    "outs_before",
+    "on_1b_before",
+    "on_2b_before",
+    "on_3b_before",
+    "fielding_team_is_home",
+    "fielding_score_diff",
+    "score_diff_x_inning"
+  ],
+  "matchup_classes": [
+    "EXTRA_BASE",
+    "FREE_PASS",
+    "OUT",
+    "SINGLE"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "generated_at_utc": "2026-08-08T08:09:29.828376+00:00",
+  "source_range": {
+    "start": "2025-03-27",
+    "end": "2026-08-07"
+  },
+  "raw_pitch_rows": 1274390,
+  "terminal_event_rows": 327756,
+  "modelable_pa_rows": 324435,
+  "documented_exclusion_rows": 3321,
+  "documented_exclusion_counts": {
+    "catcher_interf": 160,
+    "field_error": 1879,
+    "fielders_choice": 708,
+    "truncated_pa": 574
+  },
+  "unknown_events": [],
+  "outcome_counts": {
+    "EXTRA_BASE": 24965,
+    "FREE_PASS": 31870,
+    "OUT": 221159,
+    "SINGLE": 46441
+  },
+  "game_count": 4336,
+  "date_min": "2025-03-27",
+  "date_max": "2026-08-06",
+  "pitcher_profile_rows": 7296,
+  "batter_profile_rows": 7039,
+  "workload_rows": 37448,
+  "state_example_rows": 324435,
+  "scenario_candidate_count": 12,
+  "selected_scenario_count": 3,
+  "selected_scenario_ids": [
+    "2025-10-27-lad-813032",
+    "2026-08-06-cws-824729",
+    "2025-04-09-pit-778389"
+  ],
+  "manual_review_complete": true,
+  "artifact_sizes_bytes": {
+    "batter_profiles.parquet": 358346,
+    "pitcher_profiles.parquet": 389600,
+    "pitcher_workload.parquet": 315222,
+    "plate_appearances.parquet": 23158665,
+    "state_examples.parquet": 679669
+  },
+  "scenario_review_report": "reports\\scenario_review.json"
+}
